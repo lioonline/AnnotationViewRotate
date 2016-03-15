@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F2A26C0881B602CA9F40F96 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5341D04ED5730D0DF2704FF1 /* libPods.a */; };
+		FB4B64931C96E53B00F1B9C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B64921C96E53B00F1B9C0 /* main.m */; };
+		FB4B64961C96E53B00F1B9C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B64951C96E53B00F1B9C0 /* AppDelegate.m */; };
+		FB4B64991C96E53B00F1B9C0 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FB4B64981C96E53B00F1B9C0 /* ViewController.mm */; };
+		FB4B649C1C96E53B00F1B9C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4B649A1C96E53B00F1B9C0 /* Main.storyboard */; };
+		FB4B649E1C96E53B00F1B9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4B649D1C96E53B00F1B9C0 /* Assets.xcassets */; };
+		FB4B64A11C96E53B00F1B9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4B649F1C96E53B00F1B9C0 /* LaunchScreen.storyboard */; };
+		FB4B64AC1C96E53B00F1B9C0 /* LeeBaiduTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B64AB1C96E53B00F1B9C0 /* LeeBaiduTests.m */; };
+		FB4B64B71C96E53B00F1B9C0 /* LeeBaiduUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4B64B61C96E53B00F1B9C0 /* LeeBaiduUITests.m */; };
+		FB5A16501C96F17100969789 /* map-uberx.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A164F1C96F17100969789 /* map-uberx.png */; };
+		FB5A16541C97007700969789 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A16521C97007700969789 /* UIImage+Rotate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB4B64A81C96E53B00F1B9C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4B64861C96E53B00F1B9C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4B648D1C96E53B00F1B9C0;
+			remoteInfo = LeeBaidu;
+		};
+		FB4B64B31C96E53B00F1B9C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4B64861C96E53B00F1B9C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4B648D1C96E53B00F1B9C0;
+			remoteInfo = LeeBaidu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5341D04ED5730D0DF2704FF1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4A143402D82FC725D16BAF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D6298B353F585F34630826E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FB4B648E1C96E53B00F1B9C0 /* LeeBaidu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeBaidu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4B64921C96E53B00F1B9C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB4B64941C96E53B00F1B9C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB4B64951C96E53B00F1B9C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB4B64971C96E53B00F1B9C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB4B64981C96E53B00F1B9C0 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		FB4B649B1C96E53B00F1B9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB4B649D1C96E53B00F1B9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB4B64A01C96E53B00F1B9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB4B64A21C96E53B00F1B9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4B64A71C96E53B00F1B9C0 /* LeeBaiduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeBaiduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4B64AB1C96E53B00F1B9C0 /* LeeBaiduTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeBaiduTests.m; sourceTree = "<group>"; };
+		FB4B64AD1C96E53B00F1B9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4B64B21C96E53B00F1B9C0 /* LeeBaiduUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeBaiduUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4B64B61C96E53B00F1B9C0 /* LeeBaiduUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeeBaiduUITests.m; sourceTree = "<group>"; };
+		FB4B64B81C96E53B00F1B9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5A164F1C96F17100969789 /* map-uberx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-uberx.png"; sourceTree = "<group>"; };
+		FB5A16521C97007700969789 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		FB5A16551C97009800969789 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB4B648B1C96E53B00F1B9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2A26C0881B602CA9F40F96 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B64A41C96E53B00F1B9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B64AF1C96E53B00F1B9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CC6F9A8725840AC1B529B98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A143402D82FC725D16BAF /* Pods.debug.xcconfig */,
+				D6298B353F585F34630826E7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF489D37CF90E13879648868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5341D04ED5730D0DF2704FF1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB4B64851C96E53B00F1B9C0 = {
+			isa = PBXGroup;
+			children = (
+				FB4B64901C96E53B00F1B9C0 /* LeeBaidu */,
+				FB4B64AA1C96E53B00F1B9C0 /* LeeBaiduTests */,
+				FB4B64B51C96E53B00F1B9C0 /* LeeBaiduUITests */,
+				FB4B648F1C96E53B00F1B9C0 /* Products */,
+				9CC6F9A8725840AC1B529B98 /* Pods */,
+				CF489D37CF90E13879648868 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB4B648F1C96E53B00F1B9C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B648E1C96E53B00F1B9C0 /* LeeBaidu.app */,
+				FB4B64A71C96E53B00F1B9C0 /* LeeBaiduTests.xctest */,
+				FB4B64B21C96E53B00F1B9C0 /* LeeBaiduUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4B64901C96E53B00F1B9C0 /* LeeBaidu */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A16551C97009800969789 /* UIImage+Rotate.h */,
+				FB5A16521C97007700969789 /* UIImage+Rotate.m */,
+				FB4B64941C96E53B00F1B9C0 /* AppDelegate.h */,
+				FB4B64951C96E53B00F1B9C0 /* AppDelegate.m */,
+				FB4B64971C96E53B00F1B9C0 /* ViewController.h */,
+				FB4B64981C96E53B00F1B9C0 /* ViewController.mm */,
+				FB4B649A1C96E53B00F1B9C0 /* Main.storyboard */,
+				FB5A164F1C96F17100969789 /* map-uberx.png */,
+				FB4B649D1C96E53B00F1B9C0 /* Assets.xcassets */,
+				FB4B649F1C96E53B00F1B9C0 /* LaunchScreen.storyboard */,
+				FB4B64A21C96E53B00F1B9C0 /* Info.plist */,
+				FB4B64911C96E53B00F1B9C0 /* Supporting Files */,
+			);
+			path = LeeBaidu;
+			sourceTree = "<group>";
+		};
+		FB4B64911C96E53B00F1B9C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B64921C96E53B00F1B9C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB4B64AA1C96E53B00F1B9C0 /* LeeBaiduTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B64AB1C96E53B00F1B9C0 /* LeeBaiduTests.m */,
+				FB4B64AD1C96E53B00F1B9C0 /* Info.plist */,
+			);
+			path = LeeBaiduTests;
+			sourceTree = "<group>";
+		};
+		FB4B64B51C96E53B00F1B9C0 /* LeeBaiduUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B64B61C96E53B00F1B9C0 /* LeeBaiduUITests.m */,
+				FB4B64B81C96E53B00F1B9C0 /* Info.plist */,
+			);
+			path = LeeBaiduUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB4B648D1C96E53B00F1B9C0 /* LeeBaidu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4B64BB1C96E53B00F1B9C0 /* Build configuration list for PBXNativeTarget "LeeBaidu" */;
+			buildPhases = (
+				3F37F46AE595DB1FFF45A22A /* Check Pods Manifest.lock */,
+				FB4B648A1C96E53B00F1B9C0 /* Sources */,
+				FB4B648B1C96E53B00F1B9C0 /* Frameworks */,
+				FB4B648C1C96E53B00F1B9C0 /* Resources */,
+				809D79C2825DD1E00E73BA98 /* Embed Pods Frameworks */,
+				B5EE0F08101D0ED08996946A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeeBaidu;
+			productName = LeeBaidu;
+			productReference = FB4B648E1C96E53B00F1B9C0 /* LeeBaidu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB4B64A61C96E53B00F1B9C0 /* LeeBaiduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4B64BE1C96E53B00F1B9C0 /* Build configuration list for PBXNativeTarget "LeeBaiduTests" */;
+			buildPhases = (
+				FB4B64A31C96E53B00F1B9C0 /* Sources */,
+				FB4B64A41C96E53B00F1B9C0 /* Frameworks */,
+				FB4B64A51C96E53B00F1B9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4B64A91C96E53B00F1B9C0 /* PBXTargetDependency */,
+			);
+			name = LeeBaiduTests;
+			productName = LeeBaiduTests;
+			productReference = FB4B64A71C96E53B00F1B9C0 /* LeeBaiduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB4B64B11C96E53B00F1B9C0 /* LeeBaiduUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4B64C11C96E53B00F1B9C0 /* Build configuration list for PBXNativeTarget "LeeBaiduUITests" */;
+			buildPhases = (
+				FB4B64AE1C96E53B00F1B9C0 /* Sources */,
+				FB4B64AF1C96E53B00F1B9C0 /* Frameworks */,
+				FB4B64B01C96E53B00F1B9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4B64B41C96E53B00F1B9C0 /* PBXTargetDependency */,
+			);
+			name = LeeBaiduUITests;
+			productName = LeeBaiduUITests;
+			productReference = FB4B64B21C96E53B00F1B9C0 /* LeeBaiduUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4B64861C96E53B00F1B9C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lee;
+				TargetAttributes = {
+					FB4B648D1C96E53B00F1B9C0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4GC8V522M5;
+					};
+					FB4B64A61C96E53B00F1B9C0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FB4B648D1C96E53B00F1B9C0;
+					};
+					FB4B64B11C96E53B00F1B9C0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FB4B648D1C96E53B00F1B9C0;
+					};
+				};
+			};
+			buildConfigurationList = FB4B64891C96E53B00F1B9C0 /* Build configuration list for PBXProject "LeeBaidu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB4B64851C96E53B00F1B9C0;
+			productRefGroup = FB4B648F1C96E53B00F1B9C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB4B648D1C96E53B00F1B9C0 /* LeeBaidu */,
+				FB4B64A61C96E53B00F1B9C0 /* LeeBaiduTests */,
+				FB4B64B11C96E53B00F1B9C0 /* LeeBaiduUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB4B648C1C96E53B00F1B9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B64A11C96E53B00F1B9C0 /* LaunchScreen.storyboard in Resources */,
+				FB5A16501C96F17100969789 /* map-uberx.png in Resources */,
+				FB4B649E1C96E53B00F1B9C0 /* Assets.xcassets in Resources */,
+				FB4B649C1C96E53B00F1B9C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B64A51C96E53B00F1B9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B64B01C96E53B00F1B9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F37F46AE595DB1FFF45A22A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		809D79C2825DD1E00E73BA98 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5EE0F08101D0ED08996946A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB4B648A1C96E53B00F1B9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B64991C96E53B00F1B9C0 /* ViewController.mm in Sources */,
+				FB4B64961C96E53B00F1B9C0 /* AppDelegate.m in Sources */,
+				FB5A16541C97007700969789 /* UIImage+Rotate.m in Sources */,
+				FB4B64931C96E53B00F1B9C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B64A31C96E53B00F1B9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B64AC1C96E53B00F1B9C0 /* LeeBaiduTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B64AE1C96E53B00F1B9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B64B71C96E53B00F1B9C0 /* LeeBaiduUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB4B64A91C96E53B00F1B9C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4B648D1C96E53B00F1B9C0 /* LeeBaidu */;
+			targetProxy = FB4B64A81C96E53B00F1B9C0 /* PBXContainerItemProxy */;
+		};
+		FB4B64B41C96E53B00F1B9C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4B648D1C96E53B00F1B9C0 /* LeeBaidu */;
+			targetProxy = FB4B64B31C96E53B00F1B9C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB4B649A1C96E53B00F1B9C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4B649B1C96E53B00F1B9C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB4B649F1C96E53B00F1B9C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4B64A01C96E53B00F1B9C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB4B64B91C96E53B00F1B9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB4B64BA1C96E53B00F1B9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB4B64BC1C96E53B00F1B9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C4A143402D82FC725D16BAF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LeeBaidu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LeeBaidu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB4B64BD1C96E53B00F1B9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6298B353F585F34630826E7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LeeBaidu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LeeBaidu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB4B64BF1C96E53B00F1B9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeeBaiduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LeeBaiduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeBaidu.app/LeeBaidu";
+			};
+			name = Debug;
+		};
+		FB4B64C01C96E53B00F1B9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeeBaiduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LeeBaiduTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeeBaidu.app/LeeBaidu";
+			};
+			name = Release;
+		};
+		FB4B64C21C96E53B00F1B9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeeBaiduUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LeeBaiduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeeBaidu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FB4B64C31C96E53B00F1B9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeeBaiduUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = online.lio.LeeBaiduUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeeBaidu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB4B64891C96E53B00F1B9C0 /* Build configuration list for PBXProject "LeeBaidu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B64B91C96E53B00F1B9C0 /* Debug */,
+				FB4B64BA1C96E53B00F1B9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4B64BB1C96E53B00F1B9C0 /* Build configuration list for PBXNativeTarget "LeeBaidu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B64BC1C96E53B00F1B9C0 /* Debug */,
+				FB4B64BD1C96E53B00F1B9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4B64BE1C96E53B00F1B9C0 /* Build configuration list for PBXNativeTarget "LeeBaiduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B64BF1C96E53B00F1B9C0 /* Debug */,
+				FB4B64C01C96E53B00F1B9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4B64C11C96E53B00F1B9C0 /* Build configuration list for PBXNativeTarget "LeeBaiduUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B64C21C96E53B00F1B9C0 /* Debug */,
+				FB4B64C31C96E53B00F1B9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB4B64861C96E53B00F1B9C0 /* Project object */;
+}
